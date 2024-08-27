@@ -1,0 +1,30 @@
+@font-face {
+    font-family: gust;
+    src: url("fontes/Storm\ Gust.otf") format("opentype"), url("fontes/Storm\ Gust.ttf") format("truetype");  
+    font-weight: normal;
+    font-style: normal;
+   
+}
+body{
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+  background-image: linear-gradient(to left, #3E2F73, #734002, #D9A491);
+
+}
+h1{
+    font-family: 'Gust', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px #3E2F73 ; 
+   box-shadow: #3E2F73;
+   text-align: center;
+   text-decoration: underline;
+}
+main{
+background-color: bisque;
+color: #161515;
+box-shadow: 5px, 5px, 5px, #734002;
+border-radius: 3%;
+padding: 10px;
+}

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: face;
+    src: url(fontes/Storm\ Gust.otf ) format(opentype);
+   } 
+   body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to bottom,#8F805B,#8e7d57, #726b66 );
+    margin: 0px;
+   }
+    header{
+        text-align: center;
+        background-color: antiquewhite;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        
+    }
+    nav{ 
+        text-align: center;
+        background-color: #b1ada9;
+        padding: 3px;
+        border-radius: 4px; 
+        box-shadow: 5px 3px 3px #0d0b0b53; 
+    }
+    nav > a{
+        display:inline-flex;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 60px;
+        box-shadow: 5px 3px 3px rgba(13, 11, 11, 0.205);
+    }
+    nav a:hover{
+        color: rgb(64, 64, 62);
+        text-decoration: underline;
+
+    } 
+   
+    main{
+        text-align: justify;
+        background-color:antiquewhite;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+   h1{
+    background-color:#b1ada9;
+    box-shadow: 5px 3px 3px #0d0b0b40;
+    border-radius: 4px;
+   }
+    aside{
+    background-color: #535252d0;
+    padding: 6px;
+    text-align:center;
+    text-decoration: underline;
+    text-shadow: #f9e8c2;
+    border-radius: 4px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0%;
+    }
+    h2{
+        text-align: center;
+        box-shadow: aqua;
+    }
+    footer > p{
+        margin: 0%;
+    }
+    div#bola{
+        height: 100px;
+        width: 100px;
+        background-color: azure;
+        margin: 10px;
+        border-radius: 50%; 
+    }

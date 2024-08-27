@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABALHANDO CO IMAGENS E VIDEOS</title>  
+    <link rel="shortcut icon" href="../Ex 04/favicon 3.png" type="image/x-icon">
+</head>
+<body>
+   <h1> Imagens dimamicas</h1>
+   <p>Tente abria seu site emvarios navegadores, ou simplimewnte aumente ou diminua o tamanho de seu navegador. </p>
+   <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-P.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-M.png" type="image/png">
+    <img src="imagens/foto-G.png" alt="imagens/flexiveis">
+   </picture>
+  
+   <h1>Reproduzindo audios</h1>
+   <p>Aprendendo a eproduzir audios em HTML:5 </p>
+   <audio src="mudias/happy-mistake.mp3" controls autoplay loop></audio>
+   <audio preload="metadata" controls autoplay>
+    <source src="mudias/guanacast-33.mp3
+    " type="audio/mpeg">
+    <source src="mudias/guanacast-33.mp3" type="audio/ogg">
+    <source src="mudias/guanacast-33.mp3" type="audio/wav">
+   
+    <p>Infelismente seu navegdor não reproduz audio. <a href="mudias/happy-mistake.mp3">click aqui para baixar</a></p>
+   </audio>
+   
+   <h1>videos hopedados localmente.</h1>
+   <p>Este video esta hopedado no meu propri servidor.</p> 
+   <video src="videos/meu video.MP4.mp4" width="300"controls autoplay></video>
+   <p>Vamos revisar a hospedagens de videos</p>
+   <video src="videos/meu video.MP$.mp4" width="500"></video>
+   
+   <p>Vamos revisar a alocação de imagens dimamicas</p>
+ <picture>
+    <source media="(max-width: 750px )" srcset="imagens/foto-P.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/foto-2.png" type="image/png">
+    <img src="imagens/foto-3.png" alt="imagens/flexiciveis">
+<br>
+<h1>VIdeos local</h1>
+ <p>Este videos esta hopedado localmente</p>
+ <video width="560" poster="../EX 12/imagens/" controls autoplay loop>
+    <source src="videos/meu video.MP$.mp4" type="video/mp4">
+    <source src="videos/meu video.MWM.wmv" type="video/mwm">
+    <source src="videos/meu video.OGV.ogv" type="video/ogv">
+    </video>
+    
+    <h1>Inserindo videos do youtube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=xzb_2ZhSqyr4-mW6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>mais um videos</h1>
+    <h2>tambem podemos baixar no <em><big>VIMEU</big>
+    </em></h2>
+
+    <p>Mas um videos do Youtube.
+   </p>
+ 
+</picture>
+</body>
+</html>

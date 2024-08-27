@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* tudo que for id em HTML é # em CSS
+tudo que for "class" em HTML é . em CSWS*/
+@font-face {
+    font-family:gust;
+    src: url(fontes/Storm\ Gust.otf);
+}
+body{ 
+    background-color:#DAFFDA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:#3A6B4A; 
+}
+h1#principal{
+    font-family: gust, 'Arial Sans';
+background-color:#3A6B4A;
+color: #DAFFDA;
+text-align: center;
+}
+h2{
+    background-color: beige;
+    color:#314146;
+    margin: 2px;
+}
+.basico{
+    font-size: bold;
+   color: #114848;
+}
+.intermediario{
+    color: #4d9a51ec;
+}
+.avançado{
+   
+    color: #1c4116;
+}
+main{
+   
+    border-radius: 14px;
+   box-shadow: 5px 5px 15px rgba(46, 44, 15, 0.686);
+    width: 600px;
+    padding: 10pt;
+    margin: auto;
+}
+
+   
