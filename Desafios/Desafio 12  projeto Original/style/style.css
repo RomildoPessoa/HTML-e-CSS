@@ -57,25 +57,18 @@ section{
     font-size: 2.6vw;
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
-section.normal{
-    background-image:url(../imagens/background001.jpg);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color:#aae7b9;
+section.normal{ 
+    
+    
+    color:#111111;
     
     
 }
-section.imagem{ 
-background-image:url(../imagens/background002.jpg);
-    background-position:rigth center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #e4e8ea;
+section.imagem{  
     box-shadow: inset 1px 1px 5px 4px #00000075;
     text-shadow: 1px 1px 3px black;
 }
@@ -85,8 +78,20 @@ section.imagem > p{
     padding: 5px;
     text-shadow: 1px 1px 4px #00000095;
 }
+
+
 section p{
     padding-bottom: 2em;
+}
+
+
+section#imagem01{ 
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+section#imagem02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: rigth center ;
 }
 
 
