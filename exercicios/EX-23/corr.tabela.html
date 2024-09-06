@@ -4,31 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela html</title>
-    
-<style>
-        body{ 
+    <style>
+        body{
             font-family: Arial, Helvetica, sans-serif;
-            display: small;
         }
         table{
-            width: 400px;
+            width: 500px;
+            height: 500px;
             border-collapse: collapse;
+
         }
-        tr.linha{
-            background-color: rgb(205, 228, 248);
-        } 
-        tr.col2{
-            background-color: aqua;
-        }
-        td{ 
+        td{
             border: 1px solid black;
-            padding: 4px;
-        }
-        td.quadro{
-            background-color: lightgreen;
+            padding: 2px;
+            text-align: left;
+            vertical-align: top; /*lainhamento horizonta*/
+            text-transform: unset;
         }
     </style>
-</head>
+    </head>
 <body>
     <!--
     HIERARQUIA DE TABELAS (simplis)
@@ -38,22 +32,22 @@
          TABLE DATE = dados de tabelas
     -->
 
-    <h1>
-        Minha primeira tabela
+    
+        <h1>Minha primeira tabela
         <table>
-           <tr class="linha"> <!--primeira linha-->
+           <tr > <!--primeira linha-->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
            </tr>
-           <tr class="col2" >
+           <tr>
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
            </tr>
            <tr >
             <td>A3</td>
-            <td class="quadro">B3</td>
+            <td>B3</td>
             <td>C3</td>
            </tr>
            <tr>
