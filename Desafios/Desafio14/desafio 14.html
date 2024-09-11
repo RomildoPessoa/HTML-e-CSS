@@ -14,7 +14,7 @@
             
         }
         caption{
-            background-color: azure;
+            
             font-size: 1.4em;
             font-weight: bold;
         }
@@ -24,6 +24,16 @@
         }
         tr , th , td{
             border: 1.4px solid black;padding: 8px;
+        }thead th {
+            background-color: #969595;
+            color: beige;
+        }
+        tbody th{
+            background-color: #969595;
+            color: beige;
+        }
+        td.sim{
+            background-color: #969595;
         }
     </style>
 </head>
@@ -32,27 +42,27 @@
     <table>
         <caption>Tabelas de notas</caption>
         <thead>
-            <tr>
-                <th rowspan="">Area</th>
-                <th>Disciplina</th>
-                <th colspan="2">Notas</th>
+            <tr class="head-row">
+                <th rowspan="2" scope="row">Area</th>
+                <th rowspan="2" scope="row">Disciplina</th>
+                <th colspan="2" scope="rowgroup">Notas</th>
                
                
-                <th rowspan="2">Media</th>
+                <th rowspan="2" scope="colgroup">Media</th>
             </tr>
             <tr></tr>
                
-                 <td></td>
-                <td></td>
+                 <td class="sim"></td>
+                <td class="sim"></td>
                 <th>Notas 1</th>
                 <th>Notas 2</th>
-                <td></td>
+                <td class="sim"></td>
             </tr>
             
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="colgroup">Exatas</th>
                 <td>0,0</td>
                 <td>0,0</td>
                 <td>0,0</td>
@@ -82,12 +92,11 @@
            
             
             <tr>
-                <th colspan="4">Medias Exata</th>
-                
-                <td>0,0</td>
+                <th colspan="4" scope="rowgroup">Medias Exata</th>
+                <td class="sim">0,0</td>
             </tr>
             <tr>
-                <th rowspan="2">Numeros</th>
+                <th rowspan="2" scope="rowgroup">Numeros</th>
                 <td>0,0</td>
                 <td>0,0</td>
                 <td>0,0</td>
@@ -104,6 +113,7 @@
             </tr>
             <tr>
                 <th colspan="4">Medias de Homanas</th>
+                <td class="sim">0,0</td>
                
             </tr>
             

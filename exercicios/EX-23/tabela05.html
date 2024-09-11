@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            box-shadow: 2px 2xp 8px black;
+        }
+        table{
+            
+            width: 600px;
+            border-collapse: collapse;
+            
+
+        }
+        caption{
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        th{
+            background-color: #8d8d8dcc;
+            color: aliceblue;
+        }
+        th , td{
+            padding: 7px;
+            border: 2px solid black;
+        }
+        col.cprofissao{
+            background-color: aqua;
+        }
+        .csexo , .cidade{
+            background-color: greenyellow;
+        }
+
+    </style>
+    </body>
+</head>
+<body>
+    <h1> Agrupando Tabelas</h1>
+    <table>
+        <caption>Cadastramento</caption>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprofissao">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria Eduarda</td>
+            <td>Feminina</td>
+            <td>04</td>
+            <td>Princesa</td>
+        </tr>
+        <tr>
+            <td>Luiz Miguel</td>
+            <td>Masculino</td>
+            <td>06</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Elizabeth Pessoa</td>
+            <td>Feminina</td>
+            <td>13</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Luan Matheus</td>
+            <td>Masculino</td>
+            <td>20</td>
+            <td>Programador</td>
+        </tr> 
+        <tr>
+            <td>Maria Julia</td>
+            <td>Feminina</td>
+            <td>24</td>
+            <td>Autônoma</td>
+        </tr>
+        <tr>
+            <td>Marcio Eduardo</td>
+            <td>masculino</td>
+            <td>34</td>
+            <td>En Eletrico</td>
+        </tr>
+
+    </table>
+</body>
+</html>
